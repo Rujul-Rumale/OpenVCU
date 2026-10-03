@@ -1,0 +1,37 @@
+# KiCad — autosaves, backups, netlists
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_restore_backup_*/
+.history/
+fp-info-cache
+*.net
+*.xml
+
+# KiCad manufacturing outputs (keep checked-in gerbers if you want; uncomment to ignore)
+/PCB/gerber_*/
+/PCB/plot_*/
+
+# ArduPilot build outputs
+build/
+*.o
+*.elf
+*.bin
+*.apj
+*.hex
+!Firmware/bin/*.bin
+!Firmware/bin/*.apj
+!Firmware/bin/*.hex
+
+# Python / WSL build helpers
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
