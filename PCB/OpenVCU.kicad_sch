@@ -12702,7 +12702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Preipherals.kicad_sch"
+		(property "Sheetfile" "Peripherals.kicad_sch"
 			(at 224.028 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -59,7 +59,7 @@ Also, most hobbyist FCs are F4-based. The H7 gives enough headroom to run ArduPi
 - Designed the full power tree: LiPo → MP1584EN (5V buck) → LP5907 (3.3V LDO)
 - VCAP1 and VCAP2 need exactly 2.2µF ceramic caps or the STM32H7 internal LDO becomes unstable
 - USB-C CC pins need 5.1kΩ pull-downs to GND or no charger recognizes the board as a device
-- Hierarchical sheets: root (`OpenVCU.kicad_sch`) + `Power`, `Sensors`, `Preipherals`
+- Hierarchical sheets: root (`OpenVCU.kicad_sch`) + `Power`, `Sensors`, `Peripherals`
 
 ### PCB Layout (KiCad 10)
 
@@ -138,7 +138,7 @@ OpenVCU/
 │   ├── OpenVCU.kicad_pcb   # 4-layer layout
 │   ├── Power.kicad_sch
 │   ├── Sensors.kicad_sch
-│   └── Preipherals.kicad_sch
+│   └── Peripherals.kicad_sch
 ├── Firmware/     # hwdef.dat for ArduPilot custom board build + prebuilt binaries
 ├── bom/          # BOM CSV + interactive BOM
 └── README.md
