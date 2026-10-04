@@ -12668,6 +12668,26 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_D_P" bidirectional
+			(at 266.7 73.66 0)
+			(uuid "b9ca68a8-4adb-42ef-9678-b7f0aa0cb9e8")
+		)
+		(pin "USB_D_N" bidirectional
+			(at 266.7 76.2 0)
+			(uuid "0c941fe5-0aa5-419b-bc57-c42b001525ac")
+		)
+		(pin "VBUS_SENSE" output
+			(at 266.7 78.74 0)
+			(uuid "864634b2-b88e-4f97-8c1d-69633df94525")
+		)
+		(pin "VBUS_DIV" output
+			(at 266.7 81.28 0)
+			(uuid "6b09a4c7-785f-4798-976e-97373f1842d1")
+		)
+		(pin "VBAT" input
+			(at 266.7 83.82 0)
+			(uuid "cc664ce4-3986-4e6a-aec2-f944cd90966c")
+		)
 		(instances
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
