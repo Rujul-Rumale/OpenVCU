@@ -5113,7 +5113,7 @@
 			(uuid "7658fffa-ac21-4123-a4c0-ce31fab39998")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR032")
 					(unit 1)
@@ -5190,7 +5190,7 @@
 			(uuid "669083e9-684e-4ab1-9da7-bf2bfd37cc20")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#FLG01")
 					(unit 1)
@@ -5414,7 +5414,7 @@
 			(uuid "af1a3c3f-2085-4ee8-8f17-ead3fe01909e")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C5")
 					(unit 1)
@@ -5589,7 +5589,7 @@
 			(uuid "703e6927-e364-489e-9ea9-87e50d75c79c")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C17")
 					(unit 1)
@@ -5813,7 +5813,7 @@
 			(uuid "0873576d-a4c4-4c79-a5e6-88e79bd35a49")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C8")
 					(unit 1)
@@ -5978,7 +5978,7 @@
 			(uuid "fb0f80e0-005e-4330-8e1b-9628f5c08fe7")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C22")
 					(unit 1)
@@ -6055,7 +6055,7 @@
 			(uuid "77acfa3b-a34d-49d1-990a-ca03e750f653")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR095")
 					(unit 1)
@@ -6132,7 +6132,7 @@
 			(uuid "3f4d8cf8-2262-4fa7-b4e4-1165a9303223")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR096")
 					(unit 1)
@@ -6355,7 +6355,7 @@
 			(uuid "f0e3bbc1-b917-4ccc-9eb7-4742393913d0")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C29")
 					(unit 1)
@@ -6432,7 +6432,7 @@
 			(uuid "0e550a31-d55a-480f-82ad-0327cdf3fabb")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR018")
 					(unit 1)
@@ -6509,7 +6509,7 @@
 			(uuid "297b8b1e-41e7-495c-8f5f-9b48cb4cd10b")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR017")
 					(unit 1)
@@ -6589,7 +6589,7 @@
 			(uuid "bd2fca41-1312-49e0-a948-7de192daea2c")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "L2")
 					(unit 1)
@@ -6668,7 +6668,7 @@
 			(uuid "3ea8bb9b-8b5d-495c-855f-e8d84217e143")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR07")
 					(unit 1)
@@ -6746,7 +6746,7 @@
 			(uuid "c0cb2ba5-34b4-4aaa-9b24-978949cde19b")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR014")
 					(unit 1)
@@ -6824,7 +6824,7 @@
 			(uuid "ab5b9200-09b3-4ef7-8294-03bb9ff09522")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR022")
 					(unit 1)
@@ -6901,7 +6901,7 @@
 			(uuid "e782feb8-6a53-465b-b1a8-c2855f607d8f")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR016")
 					(unit 1)
@@ -6978,7 +6978,7 @@
 			(uuid "5f4aff1e-df85-47eb-bb8f-88dc7b8468a2")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#FLG03")
 					(unit 1)
@@ -7056,7 +7056,7 @@
 			(uuid "900df544-8c02-4634-81ff-f47bde797d78")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR083")
 					(unit 1)
@@ -7134,7 +7134,7 @@
 			(uuid "e68d6e17-ba18-4077-be8b-8cf0cf565bbb")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR098")
 					(unit 1)
@@ -7358,7 +7358,7 @@
 			(uuid "71c9f827-4bd6-49ee-a8bc-2571cf14d325")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C10")
 					(unit 1)
@@ -7569,7 +7569,7 @@
 			(uuid "26e5be59-7e86-495c-bdd5-22fe7a0cdd7f")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "Y2")
 					(unit 1)
@@ -7647,7 +7647,7 @@
 			(uuid "3498a44c-02d9-4c67-83e7-36ca2f1b88bd")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR021")
 					(unit 1)
@@ -7871,7 +7871,7 @@
 			(uuid "2e36b24a-8cff-47a0-8c47-bc9e3717e439")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C9")
 					(unit 1)
@@ -8095,7 +8095,7 @@
 			(uuid "ff376b1f-8e57-42cd-9283-9e64ad94f70e")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C12")
 					(unit 1)
@@ -8342,7 +8342,7 @@
 			(uuid "1d723c08-0fd6-4a3b-a78b-dc987e4367c4")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "R12")
 					(unit 1)
@@ -8421,7 +8421,7 @@
 			(uuid "b8aa7051-0cf5-4332-9c80-db38fe951fc1")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR019")
 					(unit 1)
@@ -8682,7 +8682,7 @@
 			(uuid "e1f3e8e0-8ea9-493b-a4c6-ff660282fa0a")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "R23")
 					(unit 1)
@@ -8760,7 +8760,7 @@
 			(uuid "9315bf69-1b35-42a7-8884-bcbb263c9292")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR08")
 					(unit 1)
@@ -8837,7 +8837,7 @@
 			(uuid "38afbb2e-b38d-439d-aa4e-b7eaed8390fa")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR094")
 					(unit 1)
@@ -9002,7 +9002,7 @@
 			(uuid "2b33094b-ff01-4aa5-ac78-cccf30069fde")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C21")
 					(unit 1)
@@ -9079,7 +9079,7 @@
 			(uuid "a763f8d6-997b-47a2-9ddd-15b852261d75")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR028")
 					(unit 1)
@@ -9108,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM1555C1H180JA01D"
+		(property "Value" "GRM1555C1H270JA01D"
 			(at 125.476 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9118,7 +9118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GRM1555C1H180JA01D:CAPC1005X55N"
+		(property "Footprint" "GRM1555C1H270JA01D:CAPC1005X55N"
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9199,7 +9199,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1H180JA01D/Murata/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1H270JA01D/Murata/view-part/?ref=snap"
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9211,7 +9211,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "GRM1555C1H180JA01D"
+		(property "MP" "GRM1555C1H270JA01D"
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9235,7 +9235,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1H180JA01D/Murata/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1H270JA01D/Murata/view-part/?ref=eda"
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9254,7 +9254,7 @@
 			(uuid "a0b000a3-a98c-4b60-98c2-e14fba61fff9")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C19")
 					(unit 1)
@@ -9477,7 +9477,7 @@
 			(uuid "d8c55044-53ab-40d5-b8c8-baae4837336c")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C27")
 					(unit 1)
@@ -9554,7 +9554,7 @@
 			(uuid "742e357d-d79d-404f-9f22-b06a53133739")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR011")
 					(unit 1)
@@ -9778,7 +9778,7 @@
 			(uuid "4f3ece1a-689e-473c-bae0-c7c2c827dba6")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C6")
 					(unit 1)
@@ -9856,7 +9856,7 @@
 			(uuid "272e9838-e487-4a1d-bb88-c00d1ddf7721")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR012")
 					(unit 1)
@@ -10080,7 +10080,7 @@
 			(uuid "b723fa8c-75a9-4048-bcdb-facf483077c0")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C7")
 					(unit 1)
@@ -10159,7 +10159,7 @@
 			(uuid "9d16c745-45b8-4dc3-a8e3-9238a9cca298")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR010")
 					(unit 1)
@@ -10237,7 +10237,7 @@
 			(uuid "9a0627a4-cd4e-48e0-9eee-680b878b0fcf")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR034")
 					(unit 1)
@@ -10314,7 +10314,7 @@
 			(uuid "3670fe82-a065-40f2-9e56-870b0a018a02")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR029")
 					(unit 1)
@@ -10391,7 +10391,7 @@
 			(uuid "1f13c6cd-bc1d-4fbd-b096-6e6622157180")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#FLG02")
 					(unit 1)
@@ -10615,7 +10615,7 @@
 			(uuid "88009d6f-0017-4a60-910e-83214345714c")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C13")
 					(unit 1)
@@ -10839,7 +10839,7 @@
 			(uuid "9a8e5ed3-8fd2-48fe-9aa4-f97db5459b6e")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C2")
 					(unit 1)
@@ -11100,7 +11100,7 @@
 			(uuid "75b59850-f5a2-4adc-a1c5-1a3205794028")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "R24")
 					(unit 1)
@@ -11178,7 +11178,7 @@
 			(uuid "cfd2275a-dfea-427c-9014-18ae6db2b39c")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR015")
 					(unit 1)
@@ -11255,7 +11255,7 @@
 			(uuid "3940a69b-4217-486a-bcf1-61935ff0c864")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR031")
 					(unit 1)
@@ -11284,7 +11284,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8-272-T3"
+		(property "Value" "ABM8-8.000MHZ-18-D1X-T3"
 			(at 113.538 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11294,7 +11294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM8-272-T3:XTAL_ABM8-272-T3"
+		(property "Footprint" "ABM8-8.000MHZ-18-D1X-T3:XTAL_ABM8-8.000MHZ-18-D1X-T3"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11387,7 +11387,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ABM8-272-T3/Abracon/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/ABM8-8.000MHZ-18-D1X-T3/Abracon/view-part/?ref=eda"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11435,7 +11435,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8-272-T3/Abracon/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8-8.000MHZ-18-D1X-T3/Abracon/view-part/?ref=snap"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11447,7 +11447,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ABM8-272-T3"
+		(property "MP" "ABM8-8.000MHZ-18-D1X-T3"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11459,7 +11459,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15805472&manufacturer=ABRACON&part_name=ABM8-272-T3&search_term=None"
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15805472&manufacturer=ABRACON&part_name=ABM8-8.000MHZ-18-D1X-T3&search_term=None"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11517,7 @@
 			(uuid "b9e1b9b4-d4dc-4bde-86ce-340f94bbe665")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "Y1")
 					(unit 1)
@@ -11595,7 +11595,7 @@
 			(uuid "a9ce98ee-affe-466a-96a7-f1b08559e03a")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR013")
 					(unit 1)
@@ -11672,7 +11672,7 @@
 			(uuid "d2700abd-9cd3-4cd1-b7a3-6a9c66801957")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR09")
 					(unit 1)
@@ -12048,7 +12048,7 @@
 			(uuid "00447efa-e149-4238-aa4a-052f9f004282")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "U1")
 					(unit 1)
@@ -12077,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Value" "GRM1555C1H180JA01D"
+		(property "Value" "GRM1555C1H270JA01D"
 			(at 111.506 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GRM1555C1H180JA01D:CAPC1005X55N"
+		(property "Footprint" "GRM1555C1H270JA01D:CAPC1005X55N"
 			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12168,7 +12168,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1H180JA01D/Murata/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1H270JA01D/Murata/view-part/?ref=snap"
 			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +12180,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "GRM1555C1H180JA01D"
+		(property "MP" "GRM1555C1H270JA01D"
 			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12204,7 +12204,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1H180JA01D/Murata/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1H270JA01D/Murata/view-part/?ref=eda"
 			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12223,7 +12223,7 @@
 			(uuid "1c16e45f-ac6e-4d10-9451-cff7e265e336")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C20")
 					(unit 1)
@@ -12447,7 +12447,7 @@
 			(uuid "932f40fd-1db2-406e-a9ff-614a80a24a5e")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C11")
 					(unit 1)
@@ -12622,7 +12622,7 @@
 			(uuid "a67072f1-09de-418d-8bf8-b35138b13190")
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "C23")
 					(unit 1)
@@ -12669,7 +12669,7 @@
 			)
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(page "2")
 				)
@@ -12714,7 +12714,7 @@
 			)
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(page "4")
 				)
@@ -12759,7 +12759,7 @@
 			)
 		)
 		(instances
-			(project "drone"
+			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(page "3")
 				)

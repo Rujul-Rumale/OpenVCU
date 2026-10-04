@@ -697,13 +697,30 @@
       {
         "filename": "OpenVCU.kicad_sch",
         "name": "OpenVCU",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "aca1b137-7238-4712-8ae7-b508bd275e0a"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "aca1b137-7238-4712-8ae7-b508bd275e0a",
+      "OpenVCU"
+    ],
+    [
+      "02d77783-822b-4912-9c40-908f263f3588",
+      "Power"
+    ],
+    [
+      "f5b37d75-ae98-4e9f-91ac-e2329462afd9",
+      "Sensors"
+    ],
+    [
+      "400b1717-f3e5-4ca8-a617-80c106d6b00c",
+      "Peripherals"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
