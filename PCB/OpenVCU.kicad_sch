@@ -12778,6 +12778,38 @@
 				(justify left top)
 			)
 		)
+		(pin "SPI_CS_ACCEL" bidirectional
+			(at 266.7 38.1 0)
+			(uuid "baff0341-d21c-4e00-bc5b-108f5e1297c1")
+		)
+		(pin "BMI_INT1" bidirectional
+			(at 266.7 40.64 0)
+			(uuid "2fc33920-8f7e-4c3d-889e-afd1f8a0f5f8")
+		)
+		(pin "SPI1_SCK" bidirectional
+			(at 266.7 43.18 0)
+			(uuid "c3c1819b-764d-4e26-8184-679506b5786c")
+		)
+		(pin "SPI1_MOSI" bidirectional
+			(at 266.7 45.72 0)
+			(uuid "0a11165a-53c5-4d0b-a3f3-c3d9289dbf4e")
+		)
+		(pin "SPI1_MISO" bidirectional
+			(at 266.7 48.26 0)
+			(uuid "939c3c0f-83be-46d3-ae23-5fd63354dfc3")
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 266.7 50.8 0)
+			(uuid "7900dc6d-3318-4fc9-b9b2-36c49bc28180")
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 266.7 53.34 0)
+			(uuid "52c3080f-8c19-47bc-8aed-12e5eedef4e5")
+		)
+		(pin "BARO_INT" output
+			(at 266.7 55.88 0)
+			(uuid "ebaa805b-7fe6-468e-913f-d2c472014fac")
+		)
 		(instances
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
