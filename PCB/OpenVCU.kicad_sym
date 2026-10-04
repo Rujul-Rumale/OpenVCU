@@ -1,0 +1,692 @@
+(kicad_symbol_lib (version 20220914) (generator eeschema)
+		(symbol "ICM-42688-P"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 15 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Value" "ICM-42688-P"
+				(at 0 12.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Footprint" "OpenVCU:ICM-42688-P"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Description" "TDK ICM-42688-P 6-axis IMU"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_keywords" "IMU accelerometer gyroscope"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_fp_filters" "ICM-42688-P*"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(symbol "ICM-42688-P_0_1"
+				(polyline
+					(pts
+						(xy -8 -11) (xy 8 -11)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8 -11) (xy 8 11)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8 11) (xy -8 11)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8 11) (xy -8 -11)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at -10 -8 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "1"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin passive line
+					(at -10 -5.46 0)
+					(length 2.54)
+					(name "RESV"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "2"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin passive line
+					(at -10 -2.92 0)
+					(length 2.54)
+					(name "RESV"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "3"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin output line
+					(at -10 -0.38 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "4"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at 10 -8 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "8"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin output line
+					(at 10 -5.46 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "9"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin passive line
+					(at 10 -2.92 180)
+					(length 2.54)
+					(name "RESV"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "10"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin passive line
+					(at 10 -0.38 180)
+					(length 2.54)
+					(name "RESV"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "11"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin input line
+					(at -3.25 -13 90)
+					(length 2.54)
+					(name "SDI"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "14"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin input line
+					(at -0.71 -13 90)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "13"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin input line
+					(at 1.83 -13 90)
+					(length 2.54)
+					(name "CS"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "12"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at -3.25 13 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "5"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at -0.71 13 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "6"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin passive line
+					(at 1.83 13 270)
+					(length 2.54)
+					(name "RESV"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "7"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DPS310"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 15 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Value" "DPS310"
+				(at 0 12.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Footprint" "OpenVCU:DPS310"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "Description" "Infineon DPS310 barometric pressure sensor"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_keywords" "baro pressure"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(property "ki_fp_filters" "DPS310*"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+			)
+			(symbol "DPS310_0_1"
+				(polyline
+					(pts
+						(xy -8 -7) (xy 8 -7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8 -7) (xy 8 7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8 7) (xy -8 7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8 7) (xy -8 -7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10 -5 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "8"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at -10 -2.46 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "7"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at -10 0.08 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "6"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin bidirectional line
+					(at -10 2.62 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "5"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin power_in line
+					(at 10 -5 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "1"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin input line
+					(at 10 -2.46 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "2"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin bidirectional line
+					(at 10 0.08 180)
+					(length 2.54)
+					(name "SDI"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "3"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+				(pin input line
+					(at 10 2.62 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+					(number "4"
+						(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+)

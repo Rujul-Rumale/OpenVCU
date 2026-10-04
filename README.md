@@ -34,12 +34,12 @@ This is a flight controller built around the **STM32H743VIT6**, a 480MHz Cortex-
 | Component | Part |
 | :--- | :--- |
 | MCU | STM32H743VIT6 (480MHz, 2MB Flash) |
-| IMU | BMI088 (6-axis, vibration-robust) |
-| Barometer | BMP390 |
-| Magnetometer | BMM350 |
+| IMU | ICM-42688-P (6-axis, 32 kHz ODR, SPI) |
+| Barometer | DPS310 (±0.06 hPa, I2C 0x76) |
+| Magnetometer | External (I2C header for compass module) |
 | Flash Logging | FM25V02A (256KB FRAM) |
 | SD Card | SDMMC1 4-bit interface |
-| Power Input | MP1584EN buck → LP5907 3.3V LDO |
+| Power Input | TPS54360 buck (5 V) → AP2112K 3.3V LDO |
 | USB | USB-C with USBLC6-2SC6 ESD protection |
 
 ---
@@ -56,7 +56,7 @@ Also, most hobbyist FCs are F4-based. The H7 gives enough headroom to run ArduPi
 
 ### Schematic (KiCad 10)
 
-- Designed the full power tree: LiPo → MP1584EN (5V buck) → LP5907 (3.3V LDO)
+- Designed the full power tree: LiPo → TPS54360 (5V buck) → AP2112K (3.3V LDO)
 - VCAP1 and VCAP2 need exactly 2.2µF ceramic caps or the STM32H7 internal LDO becomes unstable
 - USB-C CC pins need 5.1kΩ pull-downs to GND or no charger recognizes the board as a device
 - Hierarchical sheets: root (`OpenVCU.kicad_sch`) + `Power`, `Sensors`, `Peripherals`
@@ -69,7 +69,7 @@ Also, most hobbyist FCs are F4-based. The H7 gives enough headroom to run ArduPi
 
 ### Firmware (ArduPilot)
 
-- Custom `hwdef.dat` that maps all STM32 pins to physical components: SPI for BMI088, I2C for BMP390 and BMM350, SDMMC1 for SD card, USART3 for GPS, PWM on TIM1
+- Custom `hwdef.dat` that maps all STM32 pins to physical components: SPI for ICM-42688-P, I2C for DPS310 (plus external compass/IMU headers), SDMMC1 for SD card, USART3 for GPS, PWM on TIM1
 - Custom ChibiOS bootloader built before the main firmware
 - Built on WSL (Ubuntu) using the `waf` build system and `arm-none-eabi-gcc`
 

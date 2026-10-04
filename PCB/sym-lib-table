@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OpenVCU")(type "KiCad")(uri "${KIPRJMOD}/OpenVCU.kicad_sym")(options "")(descr "OpenVCU project symbols"))
+)
