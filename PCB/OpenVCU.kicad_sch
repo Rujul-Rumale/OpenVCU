@@ -5721,50 +5721,10 @@
 		)
 		(uuid "bcd4562c-746d-4517-b83b-69fd68aa48c7")
 	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 36.83 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e863b3fb-b492-4415-adbd-a53bbd5d9d29")
-	)
-	(hierarchical_label "BARO_INT"
-		(shape output)
-		(at 184 102.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50f6af0d-e780-45b5-9292-4380e606e048")
-	)
-	(hierarchical_label "+5V"
-		(shape output)
-		(at 70 47.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3dd6a2b3-5741-4fd3-ab7a-ba4fc8ff7c2c")
-	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 44.45 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59c01436-2858-4fad-8d12-3df65aede400")
-	)
+
+
+
+
 	(sheet
 		(at 222.25 71.12)
 		(size 44.45 31.75)
@@ -13648,6 +13608,37 @@
 		)
 	)
 	(embedded_fonts no)
+	(label "VBAT"
+		(at 266.7 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5499a479-1aaf-4ac7-9812-cbb3c6e44c26")
+	)
+	(label "VBAT"
+		(at 282.25 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33df8d6a-a63d-4000-9b1e-33c940fe6f21")
+	)
+	(label "BARO_INT"
+		(at 266.7 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ae4c6ee-d626-4cc6-8bbc-32435272ae90")
+	)
+
 	(sheet_instances
 		(path "/"
 			(page "1")
