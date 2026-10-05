@@ -37,3 +37,6 @@ Thumbs.db
 .idea/
 # KiCad lock files
 *.lck
+
+# local ERC reports
+/erc_*.json
