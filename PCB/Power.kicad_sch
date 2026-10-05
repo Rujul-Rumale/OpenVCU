@@ -11257,4 +11257,14 @@
 		)
 		(uuid "e390c0d7-5f78-4a49-b01a-4a6a0b2180d5")
 	)
+	(label "VBAT_IN"
+		(at 30.48 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84107a2e-015a-4e90-9be5-95e39f17140c")
+	)
 )
