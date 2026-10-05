@@ -3686,42 +3686,21 @@
 		(color 0 0 0 0)
 		(uuid "fd111042-1d06-40a5-978f-dec8f0f5bccd")
 	)
-	(no_connect
-		(at 138.43 33.02)
-		(uuid "1bdb491a-eeb5-4510-8f8a-cc96e1254bd9")
-	)
-	(no_connect
-		(at 138.43 35.56)
-		(uuid "f09205f2-b3f6-4f1a-bfce-9e8c11302b04")
-	)
-	(no_connect
-		(at 138.43 38.1)
-		(uuid "01b67a68-d6a6-495e-a02c-2e37a76c26ee")
-	)
+
+
+
 	(no_connect
 		(at 138.43 43.18)
 		(uuid "ee117232-e5b1-4d9f-ad28-c118bbe6e068")
 	)
-	(no_connect
-		(at 138.43 86.36)
-		(uuid "5f2534be-875d-42c0-a5e6-b138f162c5a0")
-	)
-	(no_connect
-		(at 138.43 88.9)
-		(uuid "39bcf0e0-06b3-4066-b818-552e400b66a4")
-	)
-	(no_connect
-		(at 138.43 91.44)
-		(uuid "9e787b76-25c4-400e-85d1-636aa3c26857")
-	)
+
+
+
 	(no_connect
 		(at 138.43 93.98)
 		(uuid "569e5f46-e9b2-4345-a277-23cd6f1a8904")
 	)
-	(no_connect
-		(at 138.43 101.6)
-		(uuid "17fca39c-c85d-473e-aa84-fe616d27955f")
-	)
+
 	(no_connect
 		(at 138.43 71.12)
 		(uuid "812530ea-424a-4426-8ecb-66a39c5000e3")
@@ -3738,10 +3717,7 @@
 		(at 138.43 111.76)
 		(uuid "0849f4fe-02af-4941-9410-9051ad5a9fb5")
 	)
-	(no_connect
-		(at 138.43 124.46)
-		(uuid "22d72cb8-dac6-4ab2-8089-ab046ec38d94")
-	)
+
 	(no_connect
 		(at 138.43 127)
 		(uuid "2d99922e-db0e-4df7-be47-e0317e6dba60")
@@ -4981,16 +4957,7 @@
 		)
 		(uuid "3b28318f-7448-4afe-859d-1f2eaec014d9")
 	)
-	(label "SPI_CS_GYRO"
-		(at 138.43 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47491a57-b011-4cd4-a067-470e81ab4574")
-	)
+
 	(label "I2C2_SCL"
 		(at 138.43 147.32 180)
 		(effects
@@ -5081,16 +5048,7 @@
 		)
 		(uuid "723716e9-cf08-4007-ba0a-5bbf0f9fb345")
 	)
-	(label "BMI_INT3"
-		(at 138.43 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74fe023e-dec5-481e-8030-7e817f702092")
-	)
+
 	(label "PWM4"
 		(at 138.43 142.24 180)
 		(effects
@@ -5865,6 +5823,50 @@
 		(pin "I2C2_SCL" bidirectional
 			(at 282.25 176.53 0)
 			(uuid "106150c0-c7b2-42c7-82be-e60510ee940f")
+		)
+		(pin "GPIO_A0" bidirectional
+			(at 222.25 110.49 0)
+			(uuid "396de1c6-0938-428b-bfe2-ab8445f42981")
+		)
+		(pin "GPIO_A1" bidirectional
+			(at 222.25 113.03 0)
+			(uuid "fa128777-e224-425d-8d5c-981a49135c0b")
+		)
+		(pin "GPIO_A2" bidirectional
+			(at 222.25 115.57 0)
+			(uuid "a1971925-825f-4daf-9d9b-29a416532b46")
+		)
+		(pin "GPIO_A3" bidirectional
+			(at 222.25 118.11 0)
+			(uuid "2fd7010b-53dd-417a-8e9c-38c5ec85caf7")
+		)
+		(pin "GPIO_A4" bidirectional
+			(at 222.25 120.65 0)
+			(uuid "329767ad-a636-4399-9712-fe18f6a42e45")
+		)
+		(pin "GPIO_A5" bidirectional
+			(at 222.25 123.19 0)
+			(uuid "0cfefbb5-f10a-431f-a283-5d1c476bdecc")
+		)
+		(pin "GPIO_A6" bidirectional
+			(at 222.25 125.73 0)
+			(uuid "3d75da01-3668-46f9-9f27-68263af990df")
+		)
+		(pin "GPIO_A7" bidirectional
+			(at 222.25 128.27 0)
+			(uuid "47febf5f-aa34-40b8-9f8c-f15d9a4bb6f1")
+		)
+		(pin "BUZZ" bidirectional
+			(at 222.25 130.81 0)
+			(uuid "b5749116-7c12-405b-9579-12f6487f1642")
+		)
+		(pin "LED" bidirectional
+			(at 222.25 133.35 0)
+			(uuid "3d197838-3358-4cf1-9407-e8c4dc9d6d73")
+		)
+		(pin "NRST" bidirectional
+			(at 222.25 135.89 0)
+			(uuid "7e03e413-09af-4c5f-a432-412cd3cddaac")
 		)
 		(instances
 			(project "OpenVCU"
@@ -13111,5 +13113,309 @@
 		(path "/"
 			(page "1")
 		)
+	)
+	(label "GPIO_A0"
+		(at 138.43 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b8102f9-c014-435d-82dd-889499221b83")
+	)
+	(label "GPIO_A1"
+		(at 138.43 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f0091db-861d-4cc8-b82b-c22633ba2c68")
+	)
+	(label "GPIO_A2"
+		(at 138.43 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c445344-e1da-4cd3-85ea-1ac5ea037d5b")
+	)
+	(label "GPIO_A3"
+		(at 138.43 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dd2b561-efc6-46bd-8fb3-6f2b08ddaaaf")
+	)
+	(label "GPIO_A4"
+		(at 138.43 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed972920-ecc0-4ee8-96c7-5a655ad090ef")
+	)
+	(label "GPIO_A5"
+		(at 138.43 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa73c381-2b6e-4322-89e4-73e24647331f")
+	)
+	(label "GPIO_A6"
+		(at 138.43 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efe1d079-dfc4-4038-ba43-f2e3ebdc64dc")
+	)
+	(label "GPIO_A7"
+		(at 138.43 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b49a8b0-f7c9-44ff-8d06-c58100b8fab2")
+	)
+	(label "LED"
+		(at 138.43 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4e7b245-6bea-49c1-b149-5d57ec66572b")
+	)
+	(no_connect
+		(at 138.43 121.92)
+		(uuid "eca9def2-bd47-4551-8521-28b687c2d935")
+	)
+	(label "BUZZ"
+		(at 190.5 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24065e52-ba70-460b-ab13-463da0c609d1")
+	)
+	(label "BARO_INT"
+		(at 190.5 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93f7812d-8eff-470b-87cb-ea303b98d51b")
+	)
+	(no_connect
+		(at 138.43 40.64)
+		(uuid "be9b042b-7d4c-48fc-969d-23e08066b0b6")
+	)
+	(no_connect
+		(at 190.5 157.48)
+		(uuid "400cad7d-21a7-4087-a28f-e2325cac9609")
+	)
+	(no_connect
+		(at 190.5 154.94)
+		(uuid "08dac51d-f306-4c75-9b18-60bc12c357c4")
+	)
+	(no_connect
+		(at 190.5 142.24)
+		(uuid "ac5b4c9d-3bbf-4f70-ae7b-8c3788992414")
+	)
+	(no_connect
+		(at 190.5 139.7)
+		(uuid "81a61065-532d-4554-b41c-1adac385721f")
+	)
+	(no_connect
+		(at 190.5 137.16)
+		(uuid "05957bc6-6edc-4d24-bf0e-e690ca8b4d7d")
+	)
+	(no_connect
+		(at 190.5 134.62)
+		(uuid "cecbe8b7-02cb-4b27-8078-c4351cfe62b5")
+	)
+	(no_connect
+		(at 190.5 132.08)
+		(uuid "eae216c1-fcef-4616-90dc-292136cd57db")
+	)
+	(no_connect
+		(at 190.5 129.54)
+		(uuid "1813c8bd-fd97-4b04-bd9c-ff0c4e0a7e60")
+	)
+	(no_connect
+		(at 190.5 116.84)
+		(uuid "0488bf21-cd00-4912-a595-5b6bdf8d6120")
+	)
+	(no_connect
+		(at 190.5 111.76)
+		(uuid "6773216e-2af4-46f0-8c92-0ade8d361c0a")
+	)
+	(no_connect
+		(at 190.5 91.44)
+		(uuid "fb0b93fd-3aa1-4677-9133-b9769b2e760c")
+	)
+	(no_connect
+		(at 190.5 81.28)
+		(uuid "5ed7d208-3b31-421c-a2c4-af1333120517")
+	)
+	(no_connect
+		(at 190.5 78.74)
+		(uuid "949409e6-e71e-4af3-bec7-eb7f65f6a35f")
+	)
+	(no_connect
+		(at 190.5 60.96)
+		(uuid "e8095847-f6a9-40e5-84a3-bb9ae6d798bd")
+	)
+	(no_connect
+		(at 190.5 55.88)
+		(uuid "28292ff7-809a-4d5f-8689-2320fdc6ad25")
+	)
+	(no_connect
+		(at 190.5 53.34)
+		(uuid "09333bce-b707-4bd6-9cba-cd551a32653e")
+	)
+	(no_connect
+		(at 190.5 50.8)
+		(uuid "a7a05c62-f2ee-465d-bb8c-c7ada3d75d3d")
+	)
+	(no_connect
+		(at 190.5 40.64)
+		(uuid "eed91411-b065-4823-8c09-4313f295e9ad")
+	)
+	(no_connect
+		(at 190.5 38.1)
+		(uuid "b9e3d528-eff3-4c8b-a67c-98f1c433dfbd")
+	)
+	(label "GPIO_A0"
+		(at 222.25 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6182a7ad-60ae-4f40-b510-974ebe1e8fb8")
+	)
+	(label "GPIO_A1"
+		(at 222.25 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f065f613-a2ac-41dd-a2a5-5ad441b19b69")
+	)
+	(label "GPIO_A2"
+		(at 222.25 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "367a68e6-2714-4787-8ceb-9062dfdfc706")
+	)
+	(label "GPIO_A3"
+		(at 222.25 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebda6ab6-da79-4960-89db-2f0979f47b9c")
+	)
+	(label "GPIO_A4"
+		(at 222.25 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "492040af-2524-4259-baca-a0279c8c0b47")
+	)
+	(label "GPIO_A5"
+		(at 222.25 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83cc9e9c-5561-4a80-ba8b-19b1289ad5a9")
+	)
+	(label "GPIO_A6"
+		(at 222.25 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2b15d59-4558-468d-9cbd-d90f1e80c205")
+	)
+	(label "GPIO_A7"
+		(at 222.25 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4df7e790-67ba-4430-b2ce-ec617ab96639")
+	)
+	(label "BUZZ"
+		(at 222.25 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "682a3ab0-bedf-43c1-a1de-0359ac56b7f9")
+	)
+	(label "LED"
+		(at 222.25 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbf60c86-4a5f-42d9-90a0-06e80558ea38")
+	)
+	(label "NRST"
+		(at 222.25 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11ff96e6-aab8-4321-ba81-d5c2b4b124bf")
 	)
 )
