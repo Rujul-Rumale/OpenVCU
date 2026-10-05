@@ -13711,20 +13711,10 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 130.81 152.4)
-			(xy 130.81 155.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f497a70-63b0-42e7-bfc3-c964a9c5efdd")
-	)
+
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 130.81 155.24 0)
+		(at 130.81 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13732,7 +13722,7 @@
 		(dnp no)
 		(uuid "38970bc4-4a98-41e2-9ecb-f74315dfb6ef")
 		(property "Reference" "#FLG0104"
-			(at 130.81 155.24 0)
+			(at 130.81 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13743,7 +13733,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 130.81 155.24 0)
+			(at 130.81 153.67 0)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -13752,7 +13742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 155.24 0)
+			(at 130.81 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13763,7 +13753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 155.24 0)
+			(at 130.81 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13774,7 +13764,7 @@
 			)
 		)
 		(property "Description" "Power flag"
-			(at 130.81 155.24 0)
+			(at 130.81 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13894,5 +13884,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed40bf49-9dea-4932-9524-9ea459ff66cc")
+	)
+	(wire
+		(pts
+			(xy 130.81 152.4)
+			(xy 130.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20773f31-665f-462c-a06e-a0be0bc79503")
 	)
 )
