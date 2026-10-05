@@ -3758,99 +3758,29 @@
 		(at 138.43 144.78)
 		(uuid "3f27f64d-98d7-4336-be76-3709087bb609")
 	)
-	(no_connect
-		(at 138.43 160.02)
-		(uuid "f0e2751e-2403-4e93-ae75-9dae589cda1b")
-	)
-	(no_connect
-		(at 138.43 162.56)
-		(uuid "95688689-8864-40eb-b5a8-e00036dac56f")
-	)
-	(no_connect
-		(at 138.43 236.22)
-		(uuid "5d4675cd-8198-4a89-afdc-45381d356663")
-	)
-	(no_connect
-		(at 138.43 238.76)
-		(uuid "9b3f26cf-987c-4903-ab54-b2a53ccfc0ad")
-	)
-	(no_connect
-		(at 138.43 254)
-		(uuid "c17661f6-90ee-4876-9727-a3e141c6e0bd")
-	)
-	(no_connect
-		(at 138.43 261.62)
-		(uuid "2f6f1e78-6295-402a-a9d7-6af8a542d1cf")
-	)
-	(no_connect
-		(at 138.43 264.16)
-		(uuid "139c140c-6b1d-4631-9097-9b13d4226b56")
-	)
-	(no_connect
-		(at 138.43 264.16)
-		(uuid "4801287e-fc9a-4937-ae29-8d88c0fbbd56")
-	)
-	(no_connect
-		(at 138.43 266.7)
-		(uuid "7d7bd94d-e81b-427f-a9db-3d96eaf5649c")
-	)
-	(no_connect
-		(at 138.43 269.24)
-		(uuid "9b9070e3-6ede-46c7-84ca-9d99aa81cbf1")
-	)
-	(no_connect
-		(at 138.43 271.78)
-		(uuid "45a6661c-d227-4f96-b20a-efe19f4eaf45")
-	)
-	(no_connect
-		(at 138.43 200.66)
-		(uuid "f2935382-2f9f-47cf-922d-09269bad2f03")
-	)
-	(no_connect
-		(at 138.43 205.74)
-		(uuid "7a0390af-3cf3-4d9b-b5cf-e9258eff032d")
-	)
-	(no_connect
-		(at 138.43 226.06)
-		(uuid "08a4629b-de67-4fb9-8990-9ba54cdb3a25")
-	)
-	(no_connect
-		(at 138.43 256.54)
-		(uuid "b0b597e3-cac8-44b4-8c49-72cf30c4101a")
-	)
-	(no_connect
-		(at 138.43 259.08)
-		(uuid "6eede341-dbdc-43e6-9638-4380383ec8bc")
-	)
-	(no_connect
-		(at 138.43 261.62)
-		(uuid "38cd7a49-185e-4a15-bc2b-fd3d4b5db367")
-	)
-	(no_connect
-		(at 138.43 264.16)
-		(uuid "102bb23e-4276-4be6-8674-898e1131d4a8")
-	)
-	(no_connect
-		(at 138.43 266.7)
-		(uuid "4eae05d2-7ced-4ff3-b914-eba1cd965e72")
-	)
-	(no_connect
-		(at 138.43 276.86)
-		(uuid "fb95169c-8fee-46e8-a0f7-d174c96bfb2c")
-	)
-	(no_connect
-		(at 138.43 279.4)
-		(uuid "deb340d4-dc41-461f-a8b6-7ac46e0b1300")
-	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	(no_connect
 		(at 138.43 48.26)
 		(uuid "c9687267-1e46-44c7-a425-3d92d235735a")
-	)
-	(no_connect
-		(at 138.43 71.12)
-		(uuid "1fb763ef-9dd7-4207-b88b-ff3cff502864")
-	)
-	(wire
+	)	(wire
 		(pts
 			(xy 100.33 30.48)
 			(xy 92.71 30.48)
@@ -6099,83 +6029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 158.75 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bac76c2-925b-45e4-83d8-93a7a0716de4")
-		(property "Reference" "#FLG01"
-			(at 158.75 189.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 158.75 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "669083e9-684e-4ab1-9da7-bf2bfd37cc20")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 24.13 0)
 		(unit 1)
@@ -6964,160 +6817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 166.37 191.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "124bbc68-c075-446e-903f-6ec30ed1582b")
-		(property "Reference" "#PWR095"
-			(at 166.37 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 166.37 195.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "77acfa3b-a34d-49d1-990a-ca03e750f653")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c60b6e4-6dca-43fe-96c1-2315c5983d27")
-		(property "Reference" "#PWR096"
-			(at 173.99 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 195.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "3f4d8cf8-2262-4fa7-b4e4-1165a9303223")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 93.98 270)
 		(unit 1)
@@ -7881,83 +7580,6 @@
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 173.99 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48032e91-1a76-4677-a39a-e7e9f0a13751")
-		(property "Reference" "#FLG03"
-			(at 173.99 189.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 173.99 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 173.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "5f4aff1e-df85-47eb-bb8f-88dc7b8468a2")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9746,83 +9368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 191.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92131cdd-bc54-4ff3-99b6-6c2fee6f7a71")
-		(property "Reference" "#PWR094"
-			(at 158.75 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 158.75 195.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "38afbb2e-b38d-439d-aa4e-b7eaed8390fa")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 48.26 180)
 		(unit 1)
@@ -11294,83 +10839,6 @@
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 166.37 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c961b436-850c-4707-8848-a5b41dba5d38")
-		(property "Reference" "#FLG02"
-			(at 166.37 189.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 166.37 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "1f13c6cd-bc1d-4fbd-b096-6e6622157180")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
