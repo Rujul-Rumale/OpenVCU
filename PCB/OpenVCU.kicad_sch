@@ -5825,47 +5825,47 @@
 			(uuid "106150c0-c7b2-42c7-82be-e60510ee940f")
 		)
 		(pin "GPIO_A0" bidirectional
-			(at 222.25 110.49 0)
+			(at 222.25 110.49 180)
 			(uuid "396de1c6-0938-428b-bfe2-ab8445f42981")
 		)
 		(pin "GPIO_A1" bidirectional
-			(at 222.25 113.03 0)
+			(at 222.25 113.03 180)
 			(uuid "fa128777-e224-425d-8d5c-981a49135c0b")
 		)
 		(pin "GPIO_A2" bidirectional
-			(at 222.25 115.57 0)
+			(at 222.25 115.57 180)
 			(uuid "a1971925-825f-4daf-9d9b-29a416532b46")
 		)
 		(pin "GPIO_A3" bidirectional
-			(at 222.25 118.11 0)
+			(at 222.25 118.11 180)
 			(uuid "2fd7010b-53dd-417a-8e9c-38c5ec85caf7")
 		)
 		(pin "GPIO_A4" bidirectional
-			(at 222.25 120.65 0)
+			(at 222.25 120.65 180)
 			(uuid "329767ad-a636-4399-9712-fe18f6a42e45")
 		)
 		(pin "GPIO_A5" bidirectional
-			(at 222.25 123.19 0)
+			(at 222.25 123.19 180)
 			(uuid "0cfefbb5-f10a-431f-a283-5d1c476bdecc")
 		)
 		(pin "GPIO_A6" bidirectional
-			(at 222.25 125.73 0)
+			(at 222.25 125.73 180)
 			(uuid "3d75da01-3668-46f9-9f27-68263af990df")
 		)
 		(pin "GPIO_A7" bidirectional
-			(at 222.25 128.27 0)
+			(at 222.25 128.27 180)
 			(uuid "47febf5f-aa34-40b8-9f8c-f15d9a4bb6f1")
 		)
 		(pin "BUZZ" bidirectional
-			(at 222.25 130.81 0)
+			(at 222.25 130.81 180)
 			(uuid "b5749116-7c12-405b-9579-12f6487f1642")
 		)
 		(pin "LED" bidirectional
-			(at 222.25 133.35 0)
+			(at 222.25 133.35 180)
 			(uuid "3d197838-3358-4cf1-9407-e8c4dc9d6d73")
 		)
 		(pin "NRST" bidirectional
-			(at 222.25 135.89 0)
+			(at 222.25 135.89 180)
 			(uuid "7e03e413-09af-4c5f-a432-412cd3cddaac")
 		)
 		(instances
