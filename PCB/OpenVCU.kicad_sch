@@ -3833,17 +3833,7 @@
 		)
 		(uuid "10181955-59c1-43d2-9051-77a150206f6a")
 	)
-	(wire
-		(pts
-			(xy 210.82 104.14)
-			(xy 210.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125fad11-038e-47da-a363-1ffb92f31b5a")
-	)
+
 	(wire
 		(pts
 			(xy 127 93.98)
@@ -4856,17 +4846,7 @@
 		)
 		(uuid "fe937add-923f-4120-ad90-9e7e321d26f6")
 	)
-	(wire
-		(pts
-			(xy 120.65 78.74)
-			(xy 102.87 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff23d206-350b-4a2c-af7e-267929999561")
-	)
+
 	(label "SWDIO"
 		(at 190.5 104.14 0)
 		(effects
@@ -9815,7 +9795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K3RACTU:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 123.19 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13417,5 +13397,543 @@
 			(justify right bottom)
 		)
 		(uuid "11ff96e6-aab8-4321-ba81-d5c2b4b124bf")
+	)
+	(junction
+		(at 102.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6bbbe6-9bba-4baf-b990-f244869900f5")
+	)
+	(label "NRST"
+		(at 130.81 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9757bac3-cf38-4d39-b221-e476e3b632e8")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74)
+			(xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa46130d-2b1b-482a-be06-0bfc79767e5e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7250a5e-7b8d-4483-880e-e0459504ed55")
+		(property "Reference" "#PWR0114"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 78.74 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "a08fa3c6-c439-4d8b-af8b-47086d7af3ea")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 82.55)
+			(xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f4f7d9-4153-4e5b-9f6a-47fa9cdb7fa1")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 99.06 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda43c67-cb12-4f88-a558-a3b172833733")
+		(property "Reference" "#FLG0101"
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 82.55 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 99.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "47d4562f-98c2-41ed-96f0-98d3323155a7")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100.33 15.24)
+			(xy 100.33 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262c6eae-0d80-4621-af98-43319fd9e63c")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 12.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6290fad-abc8-498e-8b69-e0293fb74f3d")
+		(property "Reference" "#FLG0102"
+			(at 100.33 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.33 12.7 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 100.33 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "424e73fa-81dc-445d-99a9-e4dd952ea222")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 133.35 82.55)
+			(xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04db5b9-1e44-45d7-8418-7ab9b1f48fcf")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86b64dcf-7246-4ba7-bef7-3815c7570660")
+		(property "Reference" "#FLG0103"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 80.01 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "4f7f33b7-0337-486d-90bf-e64aebabc5a2")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 130.81 152.4)
+			(xy 130.81 155.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f497a70-63b0-42e7-bfc3-c964a9c5efdd")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 155.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38970bc4-4a98-41e2-9ecb-f74315dfb6ef")
+		(property "Reference" "#FLG0104"
+			(at 130.81 155.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.81 155.24 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 155.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 155.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 130.81 155.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "68b9329c-0b41-4ede-92ae-b094e2fbe892")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6)
+			(xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2deca3-8989-4acf-bd10-2dc2fd1249d3")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 204.47 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "821e3b4c-1c30-422c-96e2-4771d50ec8e5")
+		(property "Reference" "#FLG0105"
+			(at 204.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 204.47 104.14 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 204.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "6b2f5555-f6ea-420b-aee8-833223d25ddb")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
+					(reference "#FLG0105")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
