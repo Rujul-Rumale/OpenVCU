@@ -5018,16 +5018,7 @@
 		)
 		(uuid "6e758312-9405-414c-bd79-c81a8915fffe")
 	)
-	(label "VBUS_SENSE"
-		(at 191.77 114.3 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "723716e9-cf08-4007-ba0a-5bbf0f9fb345")
-	)
+
 
 	(label "PWM4"
 		(at 138.43 142.24 180)
@@ -5238,16 +5229,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf9d37c1-8c4f-4d57-ab25-b082ef7337a1")
-	)
-	(label "VBUS_SENSE"
-		(at 266.7 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d23164e-c734-4834-975a-2b0c8dda2397")
 	)
 	(label "VBUS_DIV"
 		(at 266.7 81.28 0)
@@ -5638,10 +5619,6 @@
 		(pin "USB_D_N" bidirectional
 			(at 266.7 76.2 0)
 			(uuid "0c941fe5-0aa5-419b-bc57-c42b001525ac")
-		)
-		(pin "VBUS_SENSE" output
-			(at 266.7 78.74 0)
-			(uuid "864634b2-b88e-4f97-8c1d-69633df94525")
 		)
 		(pin "VBUS_DIV" output
 			(at 266.7 81.28 0)
@@ -13907,5 +13884,15 @@
 				)
 			)
 		)
+	)
+	(label "VBUS_DIV"
+		(at 191.77 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed40bf49-9dea-4932-9524-9ea459ff66cc")
 	)
 )

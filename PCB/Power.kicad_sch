@@ -5382,16 +5382,7 @@
 		)
 		(uuid "2cc5ca4e-a06d-463f-9e88-4e1b584dcee9")
 	)
-	(label "VBUS_SENSE"
-		(at 34.29 170.18 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d004042-f7bb-48bc-9fb6-f01e8626542f")
-	)
+
 	(label "USB_D_N"
 		(at 71.12 91.44 0)
 		(effects
@@ -5463,16 +5454,7 @@
 		)
 		(uuid "c21da35a-d7db-48d6-beb4-616a4078d2dd")
 	)
-	(label "VBUS_SENSE"
-		(at 71.12 86.36 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "c23529fc-51b0-4c35-9c90-2f9b72123d69")
-	)
+
 	(label "USB_D_N"
 		(at 39.37 177.8 0)
 		(effects
@@ -5483,16 +5465,7 @@
 		)
 		(uuid "c7d70825-ae9a-4c0e-8ca1-17b41899a729")
 	)
-	(label "VBUS_SENSE"
-		(at 58.42 173.99 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "c85b54e9-aa2f-47bb-83a4-7f9faf279f4e")
-	)
+
 
 	(label "BOOT_DRV"
 		(at 41.91 30.48 180)
@@ -6079,17 +6052,6 @@
 			(justify right)
 		)
 		(uuid "92f4107c-543a-436d-a396-1c135c7145f8")
-	)
-	(hierarchical_label "VBUS_SENSE"
-		(shape output)
-		(at 34.29 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65ee821a-a255-45d0-ad09-ecd5b13ac50f")
 	)
 	(hierarchical_label "VBUS_DIV"
 		(shape output)
@@ -11258,5 +11220,35 @@
 				)
 			)
 		)
+	)
+	(label "VBUS"
+		(at 58.42 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d14d456-16dc-494b-8b37-a6af81be4d35")
+	)
+	(label "VBUS"
+		(at 34.29 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4852e3a4-97f4-477f-9d27-963c04e433dd")
+	)
+	(label "VBUS"
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4faaa69-2f83-4f13-a59f-77af663f67a9")
 	)
 )
