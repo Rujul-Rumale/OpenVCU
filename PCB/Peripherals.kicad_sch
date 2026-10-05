@@ -5026,16 +5026,7 @@
 		(uuid "5ff19500-f617-4862-a8c7-7e3bc74d0d20")
 	)
 
-	(label "VBAT"
-		(at 78.74 33.02 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d56cddd-20eb-48a8-b724-d6e200adb49a")
-	)
+
 	(label "SDMMC1_D2"
 		(at 242.57 133.35 0)
 		(effects
@@ -5529,17 +5520,6 @@
 			(justify right)
 		)
 		(uuid "342e096a-08fe-4f07-a670-72ceec429518")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 78.74 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26fc09a6-5cf8-4c7b-9668-cefc1852ddc3")
 	)
 	(hierarchical_label "SDMMC1_D2"
 		(shape bidirectional)
@@ -13160,4 +13140,6 @@
 		)
 		(uuid "7c6f66e1-cf10-4f6f-9773-fab95414e66d")
 	)
+
+
 )

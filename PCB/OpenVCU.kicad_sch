@@ -5647,10 +5647,6 @@
 			(at 266.7 81.28 0)
 			(uuid "6b09a4c7-785f-4798-976e-97373f1842d1")
 		)
-		(pin "VBAT" input
-			(at 266.7 83.82 0)
-			(uuid "cc664ce4-3986-4e6a-aec2-f944cd90966c")
-		)
 		(instances
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a"
@@ -5747,10 +5743,6 @@
 		(pin "UART1_RX" input
 			(at 282.25 140.97 0)
 			(uuid "18cca0d6-0c98-4695-b734-7e0b870598ea")
-		)
-		(pin "VBAT" input
-			(at 282.25 143.51 0)
-			(uuid "d4e1801b-6243-4015-abb1-38eca3055306")
 		)
 		(pin "SDMMC1_D2" bidirectional
 			(at 282.25 146.05 0)
@@ -13058,26 +13050,6 @@
 		)
 	)
 	(embedded_fonts no)
-	(label "VBAT"
-		(at 266.7 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5499a479-1aaf-4ac7-9812-cbb3c6e44c26")
-	)
-	(label "VBAT"
-		(at 282.25 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33df8d6a-a63d-4000-9b1e-33c940fe6f21")
-	)
 	(label "BARO_INT"
 		(at 266.7 55.88 0)
 		(effects

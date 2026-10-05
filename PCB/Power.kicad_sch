@@ -4908,13 +4908,7 @@
 		)
 		(uuid "df477b26-a364-44ff-b8e9-81b71ef8ffda")
 	)
-	(wire
-		(pts
-			(xy 38.1 22.86)
-			(xy 38.1 25.4)
-		)
-		(uuid "cfec3f0a-8881-47d5-9606-adc9d5d717d7")
-	)
+
 	(wire
 		(pts
 			(xy 41.91 17.78)
@@ -4943,13 +4937,7 @@
 		)
 		(uuid "855b02fb-d97b-4af5-a211-9eefd3bc4d3a")
 	)
-	(wire
-		(pts
-			(xy 38.1 24.13)
-			(xy 38.1 21.59)
-		)
-		(uuid "628205dd-7c7e-4fe7-9b7e-924719a3cd1a")
-	)
+
 	(wire
 		(pts
 			(xy 38.1 31.75)
@@ -4985,13 +4973,6 @@
 		)
 		(uuid "4869350c-1f32-496a-8b9f-5b8fda0b701a")
 	)
-	(wire
-		(pts
-			(xy 80.01 35.56)
-			(xy 80.01 33.02)
-		)
-		(uuid "c83efb73-b088-49e2-b230-d8cf97aa7eab")
-	)
 
 
 
@@ -4999,20 +4980,9 @@
 
 
 
-	(wire
-		(pts
-			(xy 80.01 19.05)
-			(xy 80.01 16.51)
-		)
-		(uuid "5cdbbec4-63f9-42ec-a9cf-983cbbcfbbc3")
-	)
-	(wire
-		(pts
-			(xy 80.01 31.75)
-			(xy 80.01 34.29)
-		)
-		(uuid "2767aa60-6f0a-419a-a5b1-7a6cc9b1edaf")
-	)
+
+
+
 
 
 	(wire
@@ -5174,16 +5144,7 @@
 		)
 		(uuid "c85b54e9-aa2f-47bb-83a4-7f9faf279f4e")
 	)
-	(label "VBAT"
-		(at 36.83 33.02 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0d229e0-0e13-488e-85ab-b46281cc58f1")
-	)
+
 	(label "BOOT_DRV"
 		(at 41.91 30.48 180)
 		(effects
@@ -5295,16 +5256,7 @@
 		)
 		(uuid "2b68f4ad-94dd-48b8-830d-0ba2be3b2079")
 	)
-	(label "GND"
-		(at 38.1 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bb7dd1a-0250-4bc1-95a7-5d22cea9a43c")
-	)
+
 	(label "VBAT"
 		(at 41.91 15.24 0)
 		(effects
@@ -5405,16 +5357,7 @@
 		)
 		(uuid "a275d160-353f-47c3-9b30-1a8b75ebf08b")
 	)
-	(label "+5V"
-		(at 80.01 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21853407-267a-413f-9494-70cb26b562c8")
-	)
+
 
 
 
@@ -5595,16 +5538,7 @@
 		)
 		(uuid "10c2face-14d1-46de-828a-9a22cd675419")
 	)
-	(label "GND"
-		(at 38.1 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81b37894-4c6c-49f1-a2aa-0f68be04d575")
-	)
+
 	(label "VBAT"
 		(at 41.91 15.24 0)
 		(effects
@@ -5705,16 +5639,7 @@
 		)
 		(uuid "262b0bb4-2fab-4a4c-8fad-1baddc4ddf25")
 	)
-	(label "+5V"
-		(at 80.01 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb828843-881e-4160-9a07-d49e40638b1c")
-	)
+
 
 
 
@@ -5827,17 +5752,6 @@
 			(justify right)
 		)
 		(uuid "0cdef93e-e712-499a-8670-2d464539bdb4")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 36.83 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b68a39eb-8c91-4a75-af40-c8dc12b1aa42")
 	)
 
 	(symbol
@@ -10472,4 +10386,161 @@
 
 
 
+
+
+
+
+	(wire
+		(pts
+			(xy 38.1 22.86)
+			(xy 41.91 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682ef322-c175-4fec-a5d6-3d9553c8797e")
+	)
+	(wire
+		(pts
+			(xy 38.1 24.13)
+			(xy 34.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a60c4f-b6dc-45d4-b434-699558486a37")
+	)
+	(wire
+		(pts
+			(xy 34.29 24.13)
+			(xy 34.29 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d51dfeb-757d-48f1-b03a-c423ee00444e")
+	)
+	(wire
+		(pts
+			(xy 34.29 15.24)
+			(xy 38.1 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f67d0a-b115-423e-b084-fe245730bf8e")
+	)
+	(wire
+		(pts
+			(xy 80.01 19.05)
+			(xy 80.01 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e869af-8a99-4bc7-abea-2ef5afd0114a")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75)
+			(xy 80.01 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1742a1c-c8a3-4e3a-82a0-48c8e67064d2")
+	)
+	(wire
+		(pts
+			(xy 34.29 15.24)
+			(xy 31.75 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ecc875-1896-44d3-b579-3f26f4b4d4b7")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c5a261-da34-45bd-9256-62c55d5b274a")
+		(property "Reference" "#FLG0203"
+			(at 31.75 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 31.75 15.24 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 31.75 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "e3b35da3-4ff5-4d80-8d65-f967c0aff7b7")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/02d77783-822b-4912-9c40-908f263f3588"
+					(reference "#FLG0203")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
