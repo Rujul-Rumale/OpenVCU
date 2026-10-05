@@ -4212,17 +4212,7 @@
 		)
 		(uuid "143d8f90-62a9-4edb-a2a0-41076bcbc2b3")
 	)
-	(wire
-		(pts
-			(xy 38.1 80.01)
-			(xy 45.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e81c865-2222-49bc-94b4-4c0faaaf046d")
-	)
+
 	(wire
 		(pts
 			(xy 78.74 148.59)
@@ -4245,28 +4235,8 @@
 		)
 		(uuid "2c8ebc76-636e-4083-a457-36af781f14fb")
 	)
-	(wire
-		(pts
-			(xy 77.47 149.86)
-			(xy 76.2 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec5ed1a-7812-4e04-b0d3-ff486e1914f4")
-	)
-	(wire
-		(pts
-			(xy 77.47 152.4)
-			(xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32edaf7d-5edc-4f81-8f23-bb96cd134cf3")
-	)
+
+
 	(wire
 		(pts
 			(xy 46.99 39.37)
@@ -4289,17 +4259,7 @@
 		)
 		(uuid "37a88733-d262-46df-9e55-ab9edd0eca3c")
 	)
-	(wire
-		(pts
-			(xy 76.2 144.78)
-			(xy 77.47 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395f0e76-973c-46f2-a839-d99b7cd07522")
-	)
+
 	(wire
 		(pts
 			(xy 92.71 148.59)
@@ -4311,17 +4271,7 @@
 		)
 		(uuid "3d261a85-5a96-4fe8-8443-d8bba20a858e")
 	)
-	(wire
-		(pts
-			(xy 38.1 74.93)
-			(xy 45.72 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de59292-e7f9-4d8f-982c-09df2f2d2967")
-	)
+
 	(wire
 		(pts
 			(xy 242.57 129.54)
@@ -4399,17 +4349,7 @@
 		)
 		(uuid "6bceb9a3-d9da-4e85-b3bc-2b764e11fe1b")
 	)
-	(wire
-		(pts
-			(xy 49.53 144.78)
-			(xy 50.8 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743dff9c-4a88-438c-9ea3-2ba018f06148")
-	)
+
 	(wire
 		(pts
 			(xy 242.57 133.35)
@@ -4498,28 +4438,8 @@
 		)
 		(uuid "91e5991c-4be0-4bfc-8561-414c8f69ebc5")
 	)
-	(wire
-		(pts
-			(xy 40.64 69.85)
-			(xy 45.72 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9306fccd-2578-4ea2-8a63-fb25ccde709f")
-	)
-	(wire
-		(pts
-			(xy 38.1 77.47)
-			(xy 45.72 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae327c6-f7e2-4eb1-9e3e-10af0fa6b835")
-	)
+
+
 	(wire
 		(pts
 			(xy 34.29 44.45)
@@ -4589,17 +4509,7 @@
 		)
 		(uuid "cd223272-2e7e-46ed-9aaf-d1930dc46ca4")
 	)
-	(wire
-		(pts
-			(xy 38.1 72.39)
-			(xy 45.72 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e9ec4f-f438-42b1-9860-2982ca4b82eb")
-	)
+
 	(wire
 		(pts
 			(xy 80.01 149.86)
@@ -4930,16 +4840,7 @@
 		)
 		(uuid "1ce5725e-5fb2-45b5-bd82-7ad240c5fc4f")
 	)
-	(label "L1_cap1"
-		(at 246.38 30.48 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ef4993d-4492-4ae2-b346-cd984653deb1")
-	)
+
 	(label "FLASH_CS"
 		(at 238.76 44.45 0)
 		(effects
@@ -5005,16 +4906,7 @@
 
 
 
-	(label "UART6_TX"
-		(at 50.8 149.86 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "593b5db8-c4fb-41fb-9fb4-029a28a8e7c7")
-	)
+
 	(label "UART1_RX"
 		(at 91.44 93.98 180)
 		(effects
@@ -5070,16 +4962,7 @@
 		(uuid "96176f38-9024-4cc7-9754-b86ef0b5c0f7")
 	)
 
-	(label "UART6_RX"
-		(at 50.8 152.4 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "af4ef6d9-4dde-4ac6-84c0-73d8658b4363")
-	)
+
 
 	(label "SDMMC1_CMD"
 		(at 210.82 104.14 180)
@@ -5499,17 +5382,7 @@
 	)
 
 
-	(hierarchical_label "UART6_TX"
-		(shape output)
-		(at 50.8 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af89fe8e-7e56-49ff-8e03-642ee61747e8")
-	)
+
 	(hierarchical_label "UART1_RX"
 		(shape input)
 		(at 91.44 93.98 180)
@@ -5565,17 +5438,7 @@
 		)
 		(uuid "6199cec3-b84e-4f4f-81aa-7681564d302f")
 	)
-	(hierarchical_label "UART6_RX"
-		(shape input)
-		(at 50.8 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be3620f2-d491-4a9c-8ee5-f554926a7dd5")
-	)
+
 
 
 	(hierarchical_label "SPI2_MOSI"
@@ -7056,83 +6919,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 49.53 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "309f7d79-d35d-40cf-a207-6a53c131ea6c")
-		(property "Reference" "#PWR078"
-			(at 49.53 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.768 141.478 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 49.53 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "3c44bee8-5ee6-42e1-9cff-75cb4e337cba")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/400b1717-f3e5-4ca8-a617-80c106d6b00c"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 148.59 90)
 		(unit 1)
@@ -7388,83 +7174,6 @@
 			(project "OpenVCU"
 				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/400b1717-f3e5-4ca8-a617-80c106d6b00c"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ff80012-de72-4c3c-bdec-ce8bc12c6eaa")
-		(property "Reference" "#PWR079"
-			(at 77.47 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 78.232 141.478 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "d5d64624-80e2-4285-82bb-fde4d7b2d215")
-		)
-		(instances
-			(project "OpenVCU"
-				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/400b1717-f3e5-4ca8-a617-80c106d6b00c"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -13142,4 +12851,233 @@
 	)
 
 
+	(symbol
+		(lib_id "OpenVCU:CONN-5")
+		(at 80.01 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9e972d-25f2-4e2e-b4b2-fc2f85f025a5")
+		(property "Reference" "J13"
+			(at 80.01 59.69 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "PADROW-5"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OpenVCU:PADROW-5"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "UART6 breakout"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "5e8d2119-be33-46b3-9c53-8d9b55a6cf9c")
+		)
+		(pin "2"
+			(uuid "1f6cc159-4982-4be1-8527-d2e8e390ef00")
+		)
+		(pin "3"
+			(uuid "180a784b-8742-4bf0-b997-9edc25e6b48e")
+		)
+		(pin "4"
+			(uuid "fea2cded-e5a6-4d46-84df-02a5c8850252")
+		)
+		(pin "5"
+			(uuid "91bee71a-daa0-4f78-8b44-f9457dacf53e")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/400b1717-f3e5-4ca8-a617-80c106d6b00c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+
+
+	(label "GND"
+		(at 67.31 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f3bd557-ce90-4904-a84d-b4e99c7df007")
+	)
+	(hierarchical_label "UART6_TX"
+		(shape bidirectional)
+		(at 67.31 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "931c751b-a5c3-4ac1-bfa4-f68a57eae4be")
+	)
+	(hierarchical_label "UART6_RX"
+		(shape bidirectional)
+		(at 67.31 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6204c1-b037-4377-aa2c-d25ff8a55127")
+	)
+	(label "GND"
+		(at 67.31 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40427658-058e-4e46-95ef-cdece3d0c341")
+	)
+	(label "GND"
+		(at 67.31 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a52909ec-ad11-43e4-8375-2e8ae3d4f658")
+	)
+	(label "GND"
+		(at 67.31 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "087abd9c-25e5-4482-bee0-243e0fa2c369")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01260aa2-a357-4042-8a92-0fb15989963f")
+		(property "Reference" "#PWR0116"
+			(at 246.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.38 30.48 0)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(in_pos_files yes)
+		(pin "1"
+			(uuid "4749bdec-660b-46ce-960f-67ec76b0b1f4")
+		)
+
+		(instances
+			(project "OpenVCU"
+				(path "/aca1b137-7238-4712-8ae7-b508bd275e0a/400b1717-f3e5-4ca8-a617-80c106d6b00c"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
