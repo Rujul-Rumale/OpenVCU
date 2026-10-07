@@ -164,10 +164,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -2.54 0)
+				(pin power_in line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "RESV_2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -182,10 +182,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -2.54 0)
+				(pin power_in line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "RESV_3"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -201,7 +201,7 @@
 					)
 				)
 				(pin output line
-					(at -10.16 5.08 0)
+					(at -10.16 0 0)
 					(length 2.54)
 					(name "INT1"
 						(effects
@@ -219,7 +219,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "VDDIO"
 						(effects
@@ -237,7 +237,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -2.54 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -254,10 +254,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -2.54 0)
+				(pin power_in line
+					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name "RESV_7"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -308,10 +308,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -7.62 180)
+				(pin power_in line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "RESV_10"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,10 +326,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -7.62 180)
+				(pin power_in line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "RESV_11"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,7 +345,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "CS"
 						(effects
@@ -363,7 +363,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -2.54 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "SCLK"
 						(effects
@@ -381,7 +381,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -5.08 180)
+					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "SDI"
 						(effects
