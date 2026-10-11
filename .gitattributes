@@ -1,0 +1,3 @@
+# Generated / vendored files GitHub Linguist should ignore for language stats
+bom/ibom.html linguist-vendored
+docs/datasheets/** linguist-vendored
