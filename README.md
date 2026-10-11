@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/status-WIP-yellow?style=for-the-badge)
 ![STM32](https://img.shields.io/badge/STM32H743VIT6-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue?style=for-the-badge)
 
 *Open hardware. Designed from scratch. Built to be flashed for whatever you bolt it to.*
 
@@ -105,7 +105,8 @@ OpenVCU/
 ├── docs/
 │   └── datasheets/            # vendor datasheets for every key part
 ├── tools/        # schematic verification helpers
-├── LICENSE
+├── LICENSE          # CERN-OHL-S-2.0 — hardware (PCB/, bom/)
+├── LICENSE-MIT      # MIT — tools/, docs/, everything else
 ├── CONTRIBUTING.md
 └── README.md
 ```
@@ -168,6 +169,13 @@ WIP hardware — reviews welcome, especially on power, crystal, and sensor routi
 ## ⚠️ Caution
 
 Nothing here has touched real copper yet. Double-check every pin against the schematic before you fab or flash, and expect rev-A debugging.
+
+---
+
+## License
+
+- **Hardware** (`PCB/`, `bom/`) — [CERN-OHL-S-2.0](LICENSE). If you make or sell boards from this design or a modified version, share your modified design files under the same license.
+- **Tools, docs, everything else** — [MIT](LICENSE-MIT).
 
 ---
 
