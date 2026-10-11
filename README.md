@@ -1,182 +1,178 @@
-<h1 align="center">
-  OpenVCU
-  <br>
-</h1>
-
-<h4 align="center">
-An open vehicle control unit built from scratch — STM32H7 flight controller running a custom port of ArduPilot
-</h4>
-
-<h4 align="center">
-Made by Rujul
-</h4>
-
 <div align="center">
 
+# OpenVCU
+
+### Open Vehicle Control Unit — one board, every vehicle.
+
+**Quad · Plane · Rover · Boat — configurable STM32H7 controller for anything that moves.**
+
+![Status](https://img.shields.io/badge/status-WIP-yellow?style=for-the-badge)
 ![STM32](https://img.shields.io/badge/STM32H743VIT6-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ArduPilot](https://img.shields.io/badge/ArduPilot-ED1C24?style=for-the-badge)
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+
+*Open hardware. Designed from scratch. Built to be flashed for whatever you bolt it to.*
 
 </div>
 
-## Overview
+---
 
-OpenVCU is an open vehicle control unit designed for drones that do proper 3D photogrammetry surveys. Off-the-shelf F4 flight controllers don't have enough processing power for the EKF configuration needed when fusing RTK GPS with IMU data at high rates. So I designed my own.
+## What is this?
 
-This is a flight controller built around the **STM32H743VIT6**, a 480MHz Cortex-M7 chip with 2MB flash and 1MB RAM. It runs a custom-compiled ArduPilot firmware with pin mappings specific to this board.
+OpenVCU is an **open-source vehicle control unit** built around the **STM32H743VIT6** (480&nbsp;MHz Cortex-M7, 2&nbsp;MB flash, 1&nbsp;MB RAM).
 
-> ⚠️ PCB has not been manufactured yet. Firmware compiles and is ready to flash, but nothing has been tested on real hardware.
+Off-the-shelf F4 flight controllers run out of headroom when you fuse RTK GPS + IMU at high rates for EKF-heavy work like 3D photogrammetry surveys. OpenVCU is my answer: H7-class compute, a clean sensor set, and one PCB that can be configured as a **quad, fixed-wing, rover, or boat** controller.
+
+> ⚠️ **WIP — hardware in progress.** Schematic + 4-layer layout are done and DRC-clean. The board has **not been manufactured or tested on real hardware yet**. Firmware lives out-of-tree for now and is intentionally **not in this repo**.
 
 ---
 
-## Hardware Specs
+## One board, four vehicles
 
-| Component | Part |
+| Vehicle | What OpenVCU gives you |
 | :--- | :--- |
-| MCU | STM32H743VIT6 (480MHz, 2MB Flash) |
-| IMU | ICM-42688-P (6-axis, 32 kHz ODR, SPI) |
-| Barometer | DPS310 (±0.06 hPa, I2C 0x76) |
-| Magnetometer | External (I2C header for compass module) |
-| Flash Logging | FM25V02A (256KB FRAM) |
-| SD Card | SDMMC1 4-bit interface |
-| Power Input | TPS54360 buck (5 V) → AP2112K 3.3V LDO |
-| USB | USB-C with USBLC6-2SC6 ESD protection |
+| 🚁 **Quad** | 4× PWM motor outputs (TIM1), 6-axis IMU + baro, SD logging |
+| ✈️ **Plane** | PWM for elevon / tail / throttle + UART GPS + I2C compass header |
+| 🚗 **Rover** | PWM for steering + throttle, battery sensing, FRAM for params |
+| 🚤 **Boat** | Same as rover + sealed-box-friendly USB-C + SD blackbox |
+
+All vehicle personalities share the same core: **IMU → EKF → PWM + telemetry + log**. The difference is just configuration and wiring.
 
 ---
 
-## Why I Built It
+## Hardware at a glance
 
-I wanted to understand how flight controllers actually work, not just use one. Designing the schematic, figuring out why the VCAP pins need specific 2.2µF caps, getting the crystal load capacitors right, debugging the ArduPilot hwdef syntax — all of that taught me things I wouldn't have learned any other way.
-
-Also, most hobbyist FCs are F4-based. The H7 gives enough headroom to run ArduPilot's EKF3 with RTK GPS fusion without the processor struggling.
-
----
-
-## How I Built It
-
-### Schematic (KiCad 10)
-
-- Designed the full power tree: LiPo → TPS54360 (5V buck) → AP2112K (3.3V LDO)
-- VCAP1 and VCAP2 need exactly 2.2µF ceramic caps or the STM32H7 internal LDO becomes unstable
-- USB-C CC pins need 5.1kΩ pull-downs to GND or no charger recognizes the board as a device
-- Hierarchical sheets: root (`OpenVCU.kicad_sch`) + `Power`, `Sensors`, `Peripherals`
-
-### PCB Layout (KiCad 10)
-
-- 4-layer board with bottom copper GND pour
-- Crystal section has an isolated GND island underneath to avoid noise coupling into the oscillator
-- DRC ended with 9 warnings, all on USB-C pad spacing (DRC settings issue, not a real problem). Zero footprint errors.
-
-### Firmware (ArduPilot)
-
-- Custom `hwdef.dat` that maps all STM32 pins to physical components: SPI for ICM-42688-P, I2C for DPS310 (plus external compass/IMU headers), SDMMC1 for SD card, USART3 for GPS, PWM on TIM1
-- Custom ChibiOS bootloader built before the main firmware
-- Built on WSL (Ubuntu) using the `waf` build system and `arm-none-eabi-gcc`
+| Block | Part | Notes |
+| :--- | :--- | :--- |
+| MCU | **STM32H743VIT6** | 480&nbsp;MHz M7, LQFP-100, 8&nbsp;MHz HSE + 32.768&nbsp;kHz LSE |
+| IMU | **ICM-42688-P** | 6-axis, SPI, 32&nbsp;kHz ODR |
+| Baro | **DPS310** | I2C `0x76`, interrupt pin routed |
+| Logging | **FM25V02A** FRAM 256&nbsp;KB (SPI) + **microSD** over SDMMC1 4-bit | Params + blackbox |
+| Power | LiPo → **MP1584EN** buck (5&nbsp;V) → **AP2112K** 3.3&nbsp;V LDO | Fused + reverse-protected input |
+| USB | **USB-C** + USBLC6-2SC6 ESD | 5.1&nbsp;kΩ CC pull-downs |
+| Compass | External via I2C header | For real heading on rovers / boats / planes |
 
 ---
 
-## Current Status
+## Interfaces
 
-- ✅ Schematic complete
-- ✅ PCB layout complete, DRC clean
-- ✅ Custom ArduPilot firmware builds successfully
-- ⏳ PCB not manufactured yet
-- ⏳ Not tested on real hardware
+### PWM motor / servo outputs
 
----
+| Output | MCU pin | Timer |
+| :--- | :--- | :--- |
+| OUT 1 | PE9 | TIM1_CH1 |
+| OUT 2 | PE11 | TIM1_CH2 |
+| OUT 3 | PE13 | TIM1_CH3 |
+| OUT 4 | PE14 | TIM1_CH4 |
 
-## How to Build Firmware
+Quads take all four. Planes / rovers / boats just remap them (e.g. steering + throttle).
 
-```bash
-git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git
-cd ardupilot
-Tools/environment_install/install-prereqs-ubuntu.sh -y
-. ~/.profile
-mkdir libraries/AP_HAL_ChibiOS/hwdef/OpenVCU-H7
-cp Firmware/hwdef.dat libraries/AP_HAL_ChibiOS/hwdef/OpenVCU-H7/
-python Tools/scripts/build_bootloaders.py OpenVCU-H7
-./waf configure --board=OpenVCU-H7
-./waf copter
-```
+### Comms & storage
 
-Output: `build/OpenVCU-H7/bin/arducopter.bin`
+| Bus | Use |
+| :--- | :--- |
+| UART1 / UART3 / UART6 | GPS, telemetry radio, RC |
+| I2C1 / I2C2 | Onboard DPS310 + external compass |
+| SPI1 | ICM-42688-P |
+| SPI2 / SPI3 | Expansion + FM25V02A FRAM |
+| SDMMC1 | microSD 4-bit |
+| USB OTG_FS | USB-C (PA11/PA12) |
 
----
+### SWD debug header
 
-## How to Flash
-
-Connect an **ST-Link V2** to the SWD header:
-
-| Header Pin | Signal |
+| Pin | Signal |
 | :--- | :--- |
 | 1 | +3V3 |
 | 2 | SWDIO (PA13) |
 | 3 | SWCLK (PA14) |
 | 4 | GND |
 
-Flash `arducopter.bin` using STM32CubeProgrammer or Mission Planner (Load custom firmware).
+Flash with ST-Link + STM32CubeProgrammer once firmware lands.
 
 ---
 
-## PWM Motor Outputs
-
-| Output | MCU Pin | Timer |
-| :--- | :--- | :--- |
-| Motor 1 | PE9 | TIM1_CH1 |
-| Motor 2 | PE11 | TIM1_CH2 |
-| Motor 3 | PE13 | TIM1_CH3 |
-| Motor 4 | PE14 | TIM1_CH4 |
-
----
-
-## Repository Structure
+## Repo structure
 
 ```
 OpenVCU/
-├── PCB/          # KiCad schematic (.kicad_sch) and PCB layout (.kicad_pcb)
-│   ├── OpenVCU.kicad_sch   # Root sheet
-│   ├── OpenVCU.kicad_pcb   # 4-layer layout
+├── PCB/          # KiCad 10 — schematic + 4-layer layout
+│   ├── OpenVCU.kicad_sch      # root sheet
 │   ├── Power.kicad_sch
 │   ├── Sensors.kicad_sch
-│   └── Peripherals.kicad_sch
-├── Firmware/     # hwdef.dat for ArduPilot custom board build + prebuilt binaries
+│   ├── Peripherals.kicad_sch
+│   └── OpenVCU.kicad_pcb      # 4-layer layout
 ├── bom/          # BOM CSV + interactive BOM
+├── docs/
+│   └── datasheets/            # vendor datasheets for every key part
+├── tools/        # schematic verification helpers
+├── LICENSE
+├── CONTRIBUTING.md
 └── README.md
 ```
 
+> Firmware (`hwdef`, bootloader, binaries) is **deliberately excluded** from git right now. It'll land as `Firmware/` once the board is validated.
+
 ---
 
-## AI-Assisted PCB Workflow (Konnect MCP)
+## Status & roadmap
 
-This project uses [Konnect](https://github.com/mixelpixx/Konnect) (successor to KiCAD-MCP-Server) as its KiCad MCP server — 228 tools over schematic, layout, ERC/DRC, and manufacturing export, via the KiCad 10 IPC API.
+- ✅ Schematic complete (hierarchical: Power / Sensors / Peripherals)
+- ✅ 4-layer layout complete, DRC clean (9 benign USB-C pad-spacing warnings)
+- ✅ BOM + interactive BOM exported
+- ✅ Gerbers exported (`PCB/gerber_*.zip`)
+- ⏳ **Manufacture rev A**
+- ⏳ Bring-up: power rails → SWD → IMU/baro probe → SD + FRAM
+- ⏳ Firmware bring-up (out-of-tree until hardware is proven)
+- ⏳ Vehicle configs: quad → plane → rover → boat
 
-Seeed-Studio's `kicad-mcp-server` was also evaluated (lightweight Python/FastMCP, MIT, analysis-focused, ~20 tools). Konnect was selected because this repo needs full editing + DRC/ERC + Gerber/BOM export on KiCad 10, not just read-only analysis.
+---
 
-Setup (KiCad 10 + Claude Desktop):
+## Getting started
 
-1. Install the Konnect package from its Releases via KiCad's **Plugin and Content Manager → Install from File**, restart KiCad.
-2. Point your MCP client at the bundled binary, e.g.:
-   ```json
-   {
-     "mcpServers": {
-       "konnect": {
-         "command": "C:\\Users\\<YOU>\\Documents\\KiCad\\10.0\\3rdparty\\plugins\\com_github_mixelpixx_konnect\\bin\\konnect.exe"
-       }
-     }
-   }
-   ```
-3. Open `PCB/OpenVCU.kicad_pro` in KiCad with the board loaded, then ask the assistant to run ERC/DRC, audit power rails, or export Gerbers.
+### 1. Open the hardware
+
+```bash
+git clone https://github.com/<you>/OpenVCU.git
+cd OpenVCU
+# open PCB/OpenVCU.kicad_pro in KiCad 10
+```
+
+You need **KiCad 10** (project symbols live in `OpenVCU.kicad_sym`, footprints in `OpenVCU.pretty/`).
+
+### 2. Review the BOM
+
+- `bom/bom.csv` — orderable line items
+- `bom/ibom.html` — interactive BOM, open in a browser
+
+### 3. Manufacturing
+
+Gerbers are under `PCB/gerber_JLCPCB.zip` / `PCB/gerber_PCBway.zip`. Always re-export from the checked-in `.kicad_pcb` before ordering — don't trust stale zips blindly.
+
+---
+
+## Design notes
+
+- **VCAP1/VCAP2 need exactly 2.2&nbsp;µF ceramic** or the H7 internal LDO goes unstable.
+- **USB-C CC pins need 5.1&nbsp;kΩ to GND** or chargers won't enumerate the board.
+- Crystal section sits over an **isolated GND island** to keep noise out of the oscillator.
+- Bottom copper is a **GND pour**; 4-layer stack keeps power integrity sane for the H7's transient load.
+
+---
+
+## Contributing
+
+WIP hardware — reviews welcome, especially on power, crystal, and sensor routing. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
 ## ⚠️ Caution
 
-Firmware has not been tested on real hardware yet. There may be issues with sensor initialization, SPI timing, or I2C addresses that only show up on actual hardware. Double check all pin assignments against the schematic before flashing and expect some debugging on first boot.
+Nothing here has touched real copper yet. Double-check every pin against the schematic before you fab or flash, and expect rev-A debugging.
 
 ---
 
 ## Credits
 
-- Made by **Rujul**
-- [ArduPilot](https://ardupilot.org/) for the open-source flight stack
-- [KiCad](https://www.kicad.org/) for PCB design
+- Designed by **Rujul**
+- [KiCad](https://www.kicad.org/) for schematic + layout
+- Datasheets in `docs/datasheets/` belong to their respective vendors

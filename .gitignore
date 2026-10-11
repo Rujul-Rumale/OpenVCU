@@ -20,9 +20,9 @@ build/
 *.bin
 *.apj
 *.hex
-!Firmware/bin/*.bin
-!Firmware/bin/*.apj
-!Firmware/bin/*.hex
+
+# Firmware is out of git for now (WIP, kept locally)
+Firmware/
 
 # Python / WSL build helpers
 __pycache__/
@@ -40,3 +40,6 @@ Thumbs.db
 
 # local ERC reports
 /erc_*.json
+
+# unrelated / local-only drops
+*.docx
