@@ -23,7 +23,7 @@ OpenVCU is an **open-source vehicle control unit** built around the **STM32H743V
 
 Off-the-shelf F4 flight controllers run out of headroom when you fuse RTK GPS + IMU at high rates for EKF-heavy work like 3D photogrammetry surveys. OpenVCU is my answer: H7-class compute, a clean sensor set, and one PCB that can be configured as a **quad, fixed-wing, rover, or boat** controller.
 
-> ⚠️ **WIP — hardware in progress.** Schematic + 4-layer layout are done and DRC-clean. The board has **not been manufactured or tested on real hardware yet**. Firmware lives out-of-tree for now and is intentionally **not in this repo**.
+> ⚠️ **WIP — schematic in progress.** The schematic is done and under review; **layout hasn't started** and nothing has been manufactured. Firmware lives out-of-tree for now and is intentionally **not in this repo**.
 
 ---
 
@@ -95,33 +95,32 @@ Flash with ST-Link + STM32CubeProgrammer once firmware lands.
 
 ```
 OpenVCU/
-├── PCB/          # KiCad 10 — schematic + 4-layer layout
+├── PCB/          # KiCad 10 — schematics + project libs (layout stays local)
 │   ├── OpenVCU.kicad_sch      # root sheet
 │   ├── Power.kicad_sch
 │   ├── Sensors.kicad_sch
 │   ├── Peripherals.kicad_sch
-│   └── OpenVCU.kicad_pcb      # 4-layer layout
+│   ├── OpenVCU.kicad_sym      # project symbols
+│   └── OpenVCU.pretty/        # project footprints
 ├── bom/          # BOM CSV + interactive BOM
 ├── docs/
 │   └── datasheets/            # vendor datasheets for every key part
-├── tools/        # schematic verification helpers
 ├── LICENSE          # CERN-OHL-S-2.0 — hardware (PCB/, bom/)
-├── LICENSE-MIT      # MIT — tools/, docs/, everything else
+├── LICENSE-MIT      # MIT — docs/, everything else
 ├── CONTRIBUTING.md
 └── README.md
 ```
 
-> Firmware (`hwdef`, bootloader, binaries) is **deliberately excluded** from git right now. It'll land as `Firmware/` once the board is validated.
+> Only schematics + libraries live in git. Layout (`.kicad_pcb`), gerbers, and firmware are **deliberately excluded** for now — layout is still WIP, firmware lands as `Firmware/` once the board is validated.
 
 ---
 
 ## Status & roadmap
 
 - ✅ Schematic complete (hierarchical: Power / Sensors / Peripherals)
-- ✅ 4-layer layout complete, DRC clean (9 benign USB-C pad-spacing warnings)
 - ✅ BOM + interactive BOM exported
-- ✅ Gerbers exported (`PCB/gerber_*.zip`)
-- ⏳ **Manufacture rev A**
+- 🚧 **Layout in progress** — not in git yet, no gerbers, nothing ordered
+- ⏳ **Finish layout → DRC → manufacture rev A**
 - ⏳ Bring-up: power rails → SWD → IMU/baro probe → SD + FRAM
 - ⏳ Firmware bring-up (out-of-tree until hardware is proven)
 - ⏳ Vehicle configs: quad → plane → rover → boat
@@ -145,9 +144,9 @@ You need **KiCad 10** (project symbols live in `OpenVCU.kicad_sym`, footprints i
 - `bom/bom.csv` — orderable line items
 - `bom/ibom.html` — interactive BOM, open in a browser
 
-### 3. Manufacturing
+### 3. Layout / manufacturing
 
-Gerbers are under `PCB/gerber_JLCPCB.zip` / `PCB/gerber_PCBway.zip`. Always re-export from the checked-in `.kicad_pcb` before ordering — don't trust stale zips blindly.
+Layout is still WIP and lives only locally — there are no gerbers in this repo yet. Once the layout lands, re-export gerbers from the layout before ordering.
 
 ---
 
@@ -155,8 +154,7 @@ Gerbers are under `PCB/gerber_JLCPCB.zip` / `PCB/gerber_PCBway.zip`. Always re-e
 
 - **VCAP1/VCAP2 need exactly 2.2&nbsp;µF ceramic** or the H7 internal LDO goes unstable.
 - **USB-C CC pins need 5.1&nbsp;kΩ to GND** or chargers won't enumerate the board.
-- Crystal section sits over an **isolated GND island** to keep noise out of the oscillator.
-- Bottom copper is a **GND pour**; 4-layer stack keeps power integrity sane for the H7's transient load.
+- Planned stackup: 4-layer with GND pour; crystal section gets an isolated GND island.
 
 ---
 
@@ -175,12 +173,12 @@ Nothing here has touched real copper yet. Double-check every pin against the sch
 ## License
 
 - **Hardware** (`PCB/`, `bom/`) — [CERN-OHL-S-2.0](LICENSE). If you make or sell boards from this design or a modified version, share your modified design files under the same license.
-- **Tools, docs, everything else** — [MIT](LICENSE-MIT).
+- **Docs, everything else** — [MIT](LICENSE-MIT).
 
 ---
 
 ## Credits
 
 - Designed by **Rujul**
-- [KiCad](https://www.kicad.org/) for schematic + layout
+- [KiCad](https://www.kicad.org/) for schematic design
 - Datasheets in `docs/datasheets/` belong to their respective vendors

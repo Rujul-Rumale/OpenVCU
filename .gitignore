@@ -11,7 +11,12 @@ fp-info-cache
 
 # KiCad manufacturing outputs (keep checked-in gerbers if you want; uncomment to ignore)
 /PCB/gerber_*/
-/PCB/plot_*/
+*.kicad_pcb
+
+# Gerber / manufacturing archives stay local for now
+PCB/gerber_*.zip
+
+# Layout stays local for now (schematics + libs only in git)/PCB/plot_*/
 
 # ArduPilot build outputs
 build/
@@ -40,6 +45,9 @@ Thumbs.db
 
 # local ERC reports
 /erc_*.json
+
+# agent verification scripts — local only, not for humans
+tools/
 
 # unrelated / local-only drops
 *.docx
